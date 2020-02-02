@@ -46,7 +46,6 @@ public class HWMane {
         r2.run();
         System.arraycopy(a1, 0, arr, 0, h);
         System.arraycopy(a2, 0, arr, h, h);
-
         System.out.println("Execution time method_2: " + (System.currentTimeMillis() - a) /1000 + " seconds");
     }
 }
